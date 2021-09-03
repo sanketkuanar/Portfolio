@@ -1,0 +1,194 @@
+body{
+    margin: 0px;
+    text-align: center;
+    /* text-align: center; -> this is use to center allogn all the element in the website*/
+    /* It wont work if an element is having width % in it like in h1 this case*/
+    /* Same case happen if it's an inline block element*/
+    /**********************************************************/
+
+    font-family: 'Merriweather', serif;
+    font-size: 1em;
+    color: #40514E;
+}
+
+h1{
+    margin: 50px auto 0 auto;
+    /*width: 10%;*/ 
+    /*here text-align: center; -> is not working*/
+    /* alternative to make it in centre*/
+    /* margin: 0 auto 0 auto; */
+    /* auto will help to re-allign it to centre*/
+    /***********************************************************/
+
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem; 
+    /*100% = 16px = 1em , so for 70px = (100 * 90) / 16 = 437.5%*/
+    /* rem -> is use to ignore font-size which is set in parent body.It doesnot get affected. It will print according to size. O */ 
+    /**********************************************************/
+
+    /*line-height: 2;*/
+    color: #66BFBF;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #66BFBF;
+    line-height: 2;
+    padding-bottom: 10px;
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.75rem;
+    color:#11999E;
+}
+
+hr{
+    border-style: dotted;
+    width: 5%;
+    border-width: 10px 0 0 0;
+    border-color: #EAF6F6;
+    margin: 100px auto;
+}
+
+a{
+    color: #11999E;
+    font-family: 'Merriweather', serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #EAF6F6;
+}
+
+p{
+    line-height: 2;
+}
+
+.programmer{
+    font-weight: normal;
+}
+
+.top{
+    background-color: #EAF6F6;
+    position: relative;
+    padding-top: 100px;
+}
+
+.pro{
+    text-decoration: underline;
+} 
+
+.bottom-cloud{
+    position: absolute;
+    /*to allign the mountain in centre*/
+    /* Possible by brewaking the flow of the bottom-cloud*/
+    /*************************************************************/
+    
+    left: 250px;
+    bottom: 300px;
+}
+
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top: 40px;
+}
+
+.middle-container{
+    margin: 100px 0;
+}
+
+.intro{
+    width: 30%;
+    margin: auto;
+}
+
+.profilepic{
+    width: 15%;
+}
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+
+.firstskill{
+    width: 20%;
+    float: left; /* To get your text in the left of the image*/
+    margin-right: 30px;
+}
+
+.secondskill{
+    width: 20%;
+    float: right; /* To get your text in the left of the image*/
+    margin-left: 30px;
+}
+
+
+.bottom-container{
+    background-color: #66BFBF;
+    padding: 50px 0 20px;
+}
+
+.contactMessage{
+    width: 30%;
+    margin: 40px auto 60px;
+}
+
+.btn {
+    background: #11CDD4;
+    background-image: -webkit-linear-gradient(top, #11CDD4, #1199E9);
+    background-image: -moz-linear-gradient(top, #11CDD4, #1199E9);
+    background-image: -ms-linear-gradient(top, #11CDD4, #1199E9);
+    background-image: -o-linear-gradient(top, #11CDD4, #1199E9);
+    background-image: -webkit-gradient(to bottom, #11CDD4, #1199E9);
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-family: 'Merriweather', serif;
+    font-size: 19px;
+    font-weight: 100;
+    padding: 40px;
+    -webkit-box-shadow: 1px 1px 20px 0 #000000;
+    -moz-box-shadow: 1px 1px 20px 0 #000000;
+    box-shadow: 1px 1px 20px 0 #000000;
+    text-shadow: 1px 1px 20px #000000;
+    border: solid #337FED 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
+ 
+ .btn:hover {
+    border: solid #337FED 1px;
+    background: #30E3CB;
+    background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4AD);
+    background-image: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
+    background-image: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
+    background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
+    background-image: -webkit-gradient(to bottom, #30E3CB, #2BC4AD);
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    text-decoration: none;
+ }
+
+ .copyright{
+     color: #EAF6F6;
+     font-size: 0.75rem;
+     padding: 20px 0;
+ }
+
+/* .FSkillDesc{
+    clear: left;
+}
+
+.SSkillDesc{
+    clear: right;
+} */
